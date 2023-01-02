@@ -1,0 +1,88 @@
+/* #list li:first-child{
+    background-color: green;
+}
+
+.list li:last-child{
+    background-color: red;
+}
+
+/* #list li:nth-child(2n){ 
+    color: yellowgreen;
+} */
+
+ /* #list li:nth-child(2n-1){  (import)
+    color: darkorange;
+}  */
+
+
+/* div p:nth-last-of-type(2){
+    color: red;
+} */
+
+/* 
+div p:nth-child(3){
+    color: blue;
+} */
+
+
+ /* div p:only-child{
+    color: pink;
+ } */
+
+
+/* div p:first-child{
+    color: darkorchid;
+} */
+
+/* 
+div P:last-child{
+    color: darkcyan;
+} */
+
+/* ------------------------------------------ */
+
+/* This is use in link Attribure */
+.box a{
+    color:blue;
+    font-size:30px ;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.box a:hover{
+    color: black;
+    background-color: purple;
+}
+.box a:active{
+    background-color:brown;
+    color: orange;
+}
+.box a:visited{
+    background-color: aqua;
+}
+
+input:disabled{
+    border-radius: 30px;
+    border: 5px dotted green;
+}
+
+input:enabled{
+    border-radius: 30px;
+    border: 5px dotted green;
+}
+
+input:focus{
+    background-color:purple;
+    color: darkmagenta;
+}
+
+h1.heading{
+    background-color: red;
+}
+.heading{
+    color: blue;
+}
+h1.heading{
+    /* background-color: #294728; */
+    /* background-color: rgb(0, 153, 255); */
+    /* background-color: hsla(200, 50%, 40%, 0.9); */
+}
